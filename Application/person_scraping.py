@@ -13,8 +13,8 @@ def scrape_person(linkedin_url):
     driver = webdriver.Chrome(service=service)
 
     # LinkedIn login
-    email = "rahulrm.gdscgenai@gmail.com"
-    password = "RRM@25@12345"
+    email = ""
+    password = ""
     actions.login(driver, email, password)  # Login to LinkedIn
     time.sleep(30)
 
